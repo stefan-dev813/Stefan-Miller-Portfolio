@@ -85,7 +85,7 @@ export default function Home(
 						<RevealFx translateY="4">
 							<Heading
 								wrap="balance"
-								variant="display-strong-l">
+								variant="display-strong-m">
 								{home.headline}
 							</Heading>
 						</RevealFx>
@@ -93,7 +93,7 @@ export default function Home(
 							<Text
 								wrap="balance"
 								onBackground="neutral-weak"
-								variant="body-default-l">
+								variant="body-default-xl">
 								{home.subline}
 							</Text>
 						</RevealFx>
@@ -120,16 +120,16 @@ export default function Home(
 					</Flex>
 				
 			</Flex>
-			{/* <RevealFx translateY="16" delay={0.6}>
+			<RevealFx translateY="16" delay={0.6}>
 				<Projects range={[1,1]} locale={locale}/>
 			</RevealFx>
-			{routes['/blog'] && (
+			{/* {routes['/blog'] && (
 				<Flex fillWidth paddingX="20">
 					<Posts range={[1,2]} columns="2" locale={locale}/>
 				</Flex>
-			)}
+			)} */}
 			<Projects range={[2]} locale={locale}/>
-			{ newsletter.display &&
+			{/* { newsletter.display &&
 				<Mailchimp newsletter={newsletter} />
 			} */}
 		</Flex>

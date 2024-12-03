@@ -14,7 +14,7 @@ export async function generateMetadata(
 
 	const title = work.title;
 	const description = work.description;
-	const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
+    const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
 
 	return {
 		title,
@@ -45,6 +45,7 @@ export default function Work(
 ) {
     unstable_setRequestLocale(locale);
     let allProjects = getPosts(['src', 'app', '[locale]', 'work', 'projects', locale]);
+    console.log(allProjects)
 
     const t = useTranslations();
     const { person, work } = renderContent(t);

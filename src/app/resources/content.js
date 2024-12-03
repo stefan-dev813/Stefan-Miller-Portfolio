@@ -115,52 +115,39 @@ const about = {
                 images: []
             },
             {
-                company: 'Pidespeed',
-                timeframe: '2022 - 2024',
-                role: 'Senior Full-Stack lead',
+                company: 'LaunchPad Lab',
+                timeframe: '2021 - 2022',
+                role: 'Senior Mobile & Back-End Developer',
                 achievements: [
-                    <>Migrated the Back End from MySQL to MongoDB, significantly increasing Database Scalability and Performance to handle growing volumes of
-                        user data and transactions, resulting in a 40% Improvement in Data Query Speeds and a more effi cient handling of Large Datasets.</>,
-                    <>Designed and Implemented a Secure User Authentication System using JWT (JSON Web Tokens) and OAuth 2.0, ensuring strong protection of
-                        sensitive user information and enhancing system security, which Reduced Unauthorized Aceess Attempts by 30%.</>,
-                    <>Developed a seamless, Multi-Payment Processing System by integrating popular gateways like Stripe, PayPal, and Square, enabling smooth and
-                        secure transactions, resulting in a 25% Reduction in Payment Failures, and improving overall Checkout Completion Rates</>,
-                    <>Implemented Real-Time Order Tracking using WebSockets, GraphQL, and RESTful APIs, allowing users to monitor their orders dynamically,
-                        which led to a 20% Increase in Customer Satisfaction and Engagement</>,
-                    <>Optimizied the Platform for Responsiveness across various devices by utilizing CSS Grid, Flexbox, Bootstrap, Material UI, and TailwindCSS,
-                        ensuring a consistent and mobile-friendly experience, contributing to a 15% Increase in Mobile Traffic and improved conversion rates.</>,
-                    <>Delivered a Scalable and Modular Architecture using Microservices and Docker, enabling future platform growth and easy integration of new
-                        features, which supported a 50% Increase in User Capacity without impacting performance.</>,
-                    <>Collaborated closely with Cross-Functional Teams including Product Managers, UI/UX Designers, and QA Engineers to design, develop, and
-                        deploy key features, fostering a highly collaborative environment that ensured the Timely and Successful Delivery of the Project</>
+                    <>Led a comprehensive blueprinting workshop to understand the business model and challenges, leading to the identificatio of key app to enhance customer experience</>,
+                    <>Developed a strategic technology roadmap and delivered a fully functional MVP in under four months, which re-engaged customers through an intuitive mobile interface</>,
+                    <>Engineered the app's architecture using a robust technology stack, including Heroku, PostgreSQL, Salesfore CRM, Ionic, and React.js, to ensure rapid development and seamless integration</>,
+                    <>Successfully launched the app, enabling features such as push notifications, customized energy dashboards, and a referral program, enhancing user engagements and providing valuable insights into solar energy production</>,
                     
                 ],
                 images: []
             },
             {
-                company: 'CXScore',
-                timeframe: '2020 - 2022', 
-                role: 'Senior Full-Stack Developer',
+                company: 'FurnitureFinders LLC',
+                timeframe: '2019 - 2021',
+                role: 'Senior Full-Stack Developer | Team Lead',
                 achievements: [
-                    <>Led the development of the Front End using React.js, creating reusable, scalable, and maintainable components with Redux for centralized state
-                        management, which streamlined the data flow and reduced complexity, resulting in a 30% Improvement in Development Effi ciency.</>,
-                    <>Optimized Core Web Vitals (CWVs) such as Largest Contentful Paint (LCP) and First Input Delay (FID) by employing React Best Practices like code splitting, lazy loading, and memoization. This enhanced Page Load Times by 25% and boosted SEO Performance, leading to a 15% Increase in Organic Traffic.</>,
-                    <>Integrated TypeScript to enhance type safety, reduce runtime errors, which enhanced code reliability and led to a 20% Decrease in Production
-                        Bugs.</>,
-                    <>Applied WCAG 2.1 Accessibility Standards with ARIA Attributes, semantic HTML, making the platform fully accessible to users with disabilities
-                        and expanding the user base by 10%.</>,
-                    <>Designed and Integrated Dynamic Data Visualization tools using D3.js, Chart.js, and React Query, allowing real-time insights into Core Web
-                        Vitals and accessibility results. This provided the product team with the ability to identify and resolve performance issues 40% faster.</>,
-                    <>Collaborated with Back End Teams utilizing Node.js, Express.js, GraphQL, and RESTful APIs, ensuring seamless data flow between Front End
-                        and Back End Systems, contributing to a 15% Improvement in User Retension due to a cohesive platform experience.</>,
-                    <>Styled the UI using TailwindCSS and CSS Modules, which reduced CSS file size by 30% and improved page load times, resulting in a 20% Faster
-                        User Interface.</>,
-                    <>Utilized Redux Toolkit and optimized state management with Reselect, improving rendering performance and reducing unnecessary re-renders,
-                        leading to a 15% Improvement in Application Responsiveness.</>,
-                    <>Implemented unit and intergation testing with Jest and React Testing Library, integrated with GitHub Actions for a CI/CD pipeline, which
-                        resulted in a 40% Reduction in Regression Issues.</>,
-                    <>Managed the build process with WebPack, Vite and Babel, improving module building, tree-shaking, and backward compatibility, which reduced
-                        bundle size by 20% and enhanced browser compatibility.</>
+                    <>Re-design, implementation and ongoing maintence of the customer-to-dealer sytem targeting the US used office furniture market</>,
+                    <>Developmen of websites for furniture dealers using a custom Deamweaver-compliant framework</>,
+                    <>Implementation of content syndications tools based on JavaScript</>,
+                    <>Implementation of auxiliary tools in PHP/MySQL and Java/Swing for data processing</>,
+                ],
+                images: []
+            },
+            {
+                company: 'Digiscorp',
+                timeframe: '2017 - 2019',
+                role: 'Senior Full-Stack Developer | Team Lead',
+                achievements: [
+                    <>Introduced community chats and groups for enhanced user collaboration</>,
+                    <>Underwent a full rebranding with a modern desgin to emphasize innovation</>,
+                    <>Launched a sophisticated recommendation system for tailored user connections</>,
+                    <>Integreated deep linking for direct access to events and communities</>
                 ],
                 images: []
             },
@@ -171,8 +158,8 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'Miyagi University of Education',
-                description: <>Bachelor's Degree in Computer Engineering</>,
+                name: 'New College of Florida',
+                description: <>Bachelor's Degree in Computer Science</>,
             },
             {
                 name: 'Codesmith',

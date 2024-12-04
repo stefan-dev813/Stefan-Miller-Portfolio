@@ -136,7 +136,7 @@ export default function Project({ params }: WorkParams) {
 			</Flex>
 			{post.metadata.images.length > 0 && (
 				<SmartImage
-					aspectRatio="16 / 9"
+					aspectRatio="16 / 11"
 					radius="m"
 					alt="image"
 					src={post.metadata.images[0]}/>

@@ -67,7 +67,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                         tabIndex={0}
                         radius="l"
                         alt={title}
-                        aspectRatio="16 / 9"
+                        aspectRatio="16 / 11"
                         src={images[activeIndex]}
                         style={{
                             border: '1px solid var(--neutral-alpha-weak)',
@@ -80,7 +80,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
             {images.length > 1 && (
                 <Flex
                     gap="4" paddingX="s"
-                    fillWidth maxWidth={32}
+                    fillWidth maxWidth={100}
                     justifyContent="center">
                     {images.map((_, index) => (
                         <Flex
@@ -92,9 +92,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                                     : 'var(--neutral-alpha-medium)',
                                 cursor: 'pointer',
                                 transition: 'background 0.3s ease',
+
                             }}
                             fillWidth
-                            height="2">
+                            alignItems="center"
+                            height="4">
+                            
                         </Flex>
                     ))}
                 </Flex>
@@ -117,16 +120,16 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                     <Flex
                         flex={7} direction="column"
                         gap="s">
-                        {avatars?.length > 0 && (
+                        {/* {avatars?.length > 0 && (
                             <AvatarGroup
                                 avatars={avatars}
                                 size="m"
                                 reverseOrder/>
-                        )}
+                        )} */}
                         {description?.trim() && (
                             <Text
-                                wrap="balance"
-                                variant="body-default-s"
+                                // wrap="balance"
+                                variant="body-default-m"
                                 onBackground="neutral-weak">
                                 {description}
                             </Text>

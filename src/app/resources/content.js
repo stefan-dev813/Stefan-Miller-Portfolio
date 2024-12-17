@@ -34,7 +34,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:stefano.mori.dev@gmail.com',
+        link: 'mailto:stefanmiller813@gmail.com',
     }, 
     // {
     //     name: '+1 (561) 501 1550',
